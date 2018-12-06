@@ -1,0 +1,23 @@
+{
+  "name": "koa-websocket-server",
+  "version": "1.0.0",
+  "description": "A demo of websocket server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "kao",
+    "websocket"
+  ],
+  "author": "junhaoliu",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mz": "^2.7.0",
+    "ws": "^6.1.2"
+  }
+}
